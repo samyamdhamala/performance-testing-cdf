@@ -63,6 +63,10 @@ user experience degrades. The next step for a real target would be to push VUs u
 fail, then work backwards to identify which component (database, auth service, cache) saturated
 first.
 
+## Visualizations
+
+See [report-stress.pdf](report-stress.pdf) for the full k6 report including all graphs and summary tables for the 500 VU stress test.
+
 ## How to Run
 
 1. Install k6: `winget install k6 --source winget`
